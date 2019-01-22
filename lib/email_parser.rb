@@ -9,6 +9,6 @@ class EmailParser
   end
 
   def self.parse(emails)
-    @emails.split(/[,\s]+/)
+    emails.split(/[,\s]+/)
   end
 end
